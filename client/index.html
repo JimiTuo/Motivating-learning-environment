@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='fi'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Motivoiva oppimisympäristö</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+
+    <script src="page_js/navbar.js" ></script>
+    <script src="page_js/index_content.js" ></script>
+    <script src="page_js/footer.js" ></script>
+    <script src="client.js" ></script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<noscript><p style="color: red">Tämä sivusto vaatii JavaScript -tuen. Ota JavaScript -tuki käyttöön selaimestasi.</p></noscript>
+<body onload="loadNavbar(); indexContent(); checkAuth(); footer(); loadApp();">
+    
+    <div id="navbar"></div>
+    <div id="index_content"></div>
+
+    <div id="loginStatus"></div>
+    <div id="footer"></div>
+ 
+</body>
+</html>

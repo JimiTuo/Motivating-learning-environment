@@ -1,0 +1,205 @@
+#custom_navbar{
+    background-color: #588C7E !important;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 210px; /* Margin bottom by footer height */
+    font-family: 'Work Sans';
+    background: linear-gradient(#e6e6ed,#fff9dd);
+}
+
+/* Kurssi sivun vasemman laidan buttonit*/
+#nopadding{
+    padding: .10rem 1.25rem;
+    border-bottom: 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-style: solid;
+}
+
+div.roundedBox{
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#textPadding{
+    margin-right: 15px;
+}
+
+#vAlert{
+    width: 75%;
+    min-width: 75% !important;
+}
+
+/* Line change */
+.card-body{
+    white-space: pre-line;
+}
+
+.panel-group{
+    margin-bottom: 10px;
+}
+
+#eventSignupButton{
+    background-color: #588C7E !important;
+}
+
+#index_login{
+    display: flex;
+    align-items: center;
+}
+
+.form-signin{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    width: 20em !important;
+}
+#index_login > .form-signin > .form-control{
+    margin-bottom: 10px !important;
+}
+#nopadding > a{
+    color: black;
+}
+#nopadding > a:hover{
+    color: #588C7E;
+}
+
+#index_login > .form-signin > .btn{
+    background-color: #588C7E !important;
+}
+
+#dropdown01{
+    color: white !important;
+}
+
+#logo{
+    /*background-size: 100%;*/
+    height: 42px;
+    width: 42px;
+}
+
+/* Header color */
+a, h1, h2, h3, h4, h5, h6{
+    color: #588C7E;
+}
+
+#left_side{
+    border-right: 1px solid;
+}
+
+#button,
+a[class='nav-link active']{
+    background-color: #588C7E !important;
+}
+
+.pills-tab > .nav-item{
+    width: 100%;
+
+}
+.pills-tab{
+    width: 100%;
+    table-layout: fixed;
+}
+
+.form-control{
+    margin-bottom: 12px;
+}
+#pills-tabContent{
+    border: 1px;
+    border-style: solid;
+}
+
+#tarkistaButton, #etusivuButton, #testiButton, #registerButton, #harjoitusButton{
+    background: #588C7E;  
+    margin-right: 5px;  
+}
+
+/* footer stuff */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto; /*Set the fixed height of the footer here */
+    background: #588C7E !important;
+}
+
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+/*footer stuff end*/
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    }
+    body{
+        height:100%;
+        margin-top: 100px;
+        font-family: 'Work Sans';
+        margin-bottom: 340px; /* Margin bottom by footer height */
+    }
+}

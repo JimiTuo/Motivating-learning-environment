@@ -1,0 +1,6 @@
+# ignore project dependencies
+node_modules
+.cache/
+
+# ignore vscode files
+.vscode/
